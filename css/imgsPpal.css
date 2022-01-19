@@ -1,0 +1,48 @@
+.contenedorImagenes{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    transition: 600ms;
+}
+
+.cajaImagen{  
+    flex: 1;
+    overflow: hidden;
+    width: 25%;
+    margin: 3%;
+    box-shadow: 1px -1px #4E6151;
+    border: 1px solid #4E6151;
+    border-radius: 0.5%;
+    line-height: 0;
+    transition: 600ms;
+    background-color: white;
+}
+
+.cajaImagen > img{
+    height: calc(100% - 3vh);
+    object-fit: cover;
+    transition: 600ms;
+}
+
+.cajaImagen > span{
+
+    display: block;
+    height: 3vh;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: 400;
+
+}
+
+.contenedorImagenes:hover{
+    height: 45%;
+}
+
+.cajaImagen:hover{
+    flex: 50%;
+}
+
+.cajaImagen:hover > img{
+    width: 100%;
+    height: 100%;
+}
