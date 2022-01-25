@@ -5,15 +5,31 @@ form{
     justify-content: center;
     align-items: center;
 }
+
+fieldset{
+    display: flex;
+    border-radius: 3%;
+}
+
 .etiquetas{
     display: flex;
     flex-direction: column;
     width: 50%;
     height: 100%;
 }
+
+.etiquetas > label{
+    margin: 3%;
+}
+
 .campos{
     display: flex;
     flex-direction: column;
     width: 50%;
     height: 100%;
+}
+
+.campos > input, textarea{
+    margin: 3%;
+    border-radius: 3%;
 }

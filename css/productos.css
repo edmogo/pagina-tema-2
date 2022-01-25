@@ -21,7 +21,7 @@ main{
     width: 100%;
     line-height: 1.5;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     border-radius: 0.5%;
 }
 
