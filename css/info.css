@@ -1,3 +1,9 @@
 .infoText{
+    margin: 3%;
+    padding: 1%;
+    column-rule: 1px solid black;
     column-count: 3;
+    background-color: #4E6151;
+    line-height: 1.5;
+    column-gap: 4%;
 }

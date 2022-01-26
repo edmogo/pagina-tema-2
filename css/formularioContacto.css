@@ -9,6 +9,7 @@ form{
 fieldset{
     display: flex;
     border-radius: 3%;
+    background-color: #4E6151;
 }
 
 .etiquetas{
